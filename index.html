@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <form id="calculatorForm">
+            <input type="number" id="num1" placeholder="Masukkan angka pertama">
+            <input type="number" id="num2" placeholder="Masukkan angka kedua">
+            <input type="number" id="num3" placeholder="Masukkan angka ketiga">
+            <button type="button" onclick="calculate()">Hitung </button>
+        </form>
+        <div id="result">
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+</html>

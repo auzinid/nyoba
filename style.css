@@ -1,0 +1,90 @@
+*{
+    font-family: "Kode Mono", monospace;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+:root{
+    --text-color: #fff;
+    --main-color: #9b0000;
+    --bg-color: #080808;
+    --second-bg-color: #101010;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 600px;
+    margin: 8.5rem  auto;
+    padding: 25px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.container h1 {
+    text-align: center;
+    color: var(--text-color);
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+input[type="number"]{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background: var(--bg-color);
+    border: 1px solid var(--main-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+button{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+input[type="number"]:hover{
+    box-shadow: 0 0 35px var(--main-color);
+}
+
+button:hover {
+    background-color: var(--text-color);
+    box-shadow: 0 0 35px var(--main-color);
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid var(--main-color);
+    box-shadow: 0 0 15px var(--main-color);
+    border-radius: 10px;
+}
+#result:hover{
+    background: var(--main-color);
+    color: var(--text-color);
+    box-shadow: 0 0 35px var(--main-color);
+}
